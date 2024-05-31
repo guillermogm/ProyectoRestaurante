@@ -2,5 +2,14 @@ body{
     margin: 0;
     padding: 0;
     height: 100vh;
-    width: 100wh;
+    width: 100vw;
+}
+
+#icon-image{
+    padding-left: 0.5em;
+}
+
+.letra-nav {
+    font-size: 1.5em;
+    margin-right: 1em;
 }
