@@ -3,6 +3,7 @@ body {
     padding: 0;
     height: 100vh;
     width: 100vw;
+    background-color: #DEE2E6;
 }
 
 #icon-image {
@@ -23,7 +24,7 @@ body {
     margin-top: 2.5em;
 }
 .fill-viewport-height{
-    margin-top: 4em;
+    margin-top: 5em;
 }
 .margin-footer-l{
     margin-left: 2em;
