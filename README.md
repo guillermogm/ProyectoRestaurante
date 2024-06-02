@@ -2,20 +2,20 @@
 Welcome to the Vitta Bella documentation. This project recreates a website of a ficticional restaurant using HTML, CSS and Bootstrap.
 
 
-## Table of Contents 📂
-* <a href="#stack-⚓">Stack ⚓</a>
-* <a href="#features-👾">Features 👾</a>
+## Table of Contents :link:
+* <a href="#stack-anchor:">Stack anchor:</a>
+* <a href="#features-:gear:">Features :gear:</a>
 * <a href="#live-deployment-🌐">Live Deployment 🌐</a>
-* <a href="#author-✒️">Author ✒️</a>
+* <a href="#author-:writing_hand:">Author :writing_hand:</a>
 * <a href="#acknowledgements-🎓">Acknowledgements 🎓</a>
 
 
-## Stack ⚓
+## Stack :anchor:	
 ![Static Badge](https://img.shields.io/badge/HTML5-orange?style=flat-square)
 ![Static Badge](https://img.shields.io/badge/CSS3-blue?style=flat-square)
 
 
-## Features 👾
+## Features :gear:
 - **Multi-page Website:** The website consists of a series of html files linked together.
 - **Responsive Design:** The website adjusts to different screen sizes.
 - **Google Maps:** This page implements google maps.
@@ -24,9 +24,9 @@ Welcome to the Vitta Bella documentation. This project recreates a website of a 
 ## Live Deployment 🌐
 > [Vitta Bella](https://guillermogm.github.io/ProyectoRestaurante/)
 
-## Author ✒️
+## Author :writing_hand:
 * Guillermo Gómez
-    * [GitHub][def]
+    * [GitHub](https://github.com/guillermogm)
 
 ## Acknowledgements 🎓
-* A shoutout to the teachers at Geekshubs Academy .
+* A shoutout to the teachers at Geekshubs Academy.
