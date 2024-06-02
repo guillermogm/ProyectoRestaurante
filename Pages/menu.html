@@ -7,7 +7,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
   <link rel="stylesheet" href="../css/styles.css">
-  <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -15,7 +15,7 @@
 </head>
 
 <body>
-  <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
       <div id="icon-image">
         <img id=".main-icon" src="../img/Icono.png" width="75em" height="75em">
@@ -39,7 +39,7 @@
       </div>
     </div>
   </nav>
-  <div class="container">
+  <div class="container" id="container-menu">
     <div class="row">
       <div class="col">
         <div class="row  categoria">
@@ -100,7 +100,7 @@
       <div class="col">
         <div class="row  categoria">
           <div class="d-flex justify-content-center">
-            <h1>Entrantes</h1>
+            <h1>Platos principales</h1>
           </div>
           <hr>
         </div>
@@ -110,46 +110,42 @@
               <img src="../img/Pizza-oven.jpg" class="card-img-top">
               <div class="card-body">
                 <div class="d-flex justify-content-center">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">PIZZE MARGHERITA 12€</h5>
                 </div>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
+                <p class="card-text">Tomate San Marzano, fior di latte y albahaca.</p>
               </div>
             </div>
           </div>
           <div class="col-12 col-sm-6 col-lg-3">
             <div class="card carta">
-              <img src="../img/Pizza-oven.jpg" class="card-img-top">
+              <img src="../img/pizza-carbonara.jpg" class="card-img-top">
               <div class="card-body">
                 <div class="d-flex justify-content-center">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">PIZZE CARBONARA 15€</h5>
                 </div>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
+                <p class="card-text">Fior di latte, guanciale, crema de yema y pecorino, pimienta negra.</p>
               </div>
             </div>
           </div>
           <div class="col-12 col-sm-6 col-lg-3">
             <div class="card carta">
-              <img src="../img/Pizza-oven.jpg" class="card-img-top">
+              <img src="../img/Risotto-gambas.jpg" class="card-img-top">
               <div class="card-body">
                 <div class="d-flex justify-content-center">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">RISOTTO CON GAMBERO 16€</h5>
                 </div>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
+                <p class="card-text">Risotto con gamba roja, stracciatella, pimienta negra y callena.</p>
               </div>
             </div>
           </div>
           <div class="col-12 col-sm-6 col-lg-3">
             <div class="card carta">
-              <img src="../img/Pizza-oven.jpg" class="card-img-top">
+              <img src="../img/Ravioli.jpg" class="card-img-top">
               <div class="card-body">
                 <div class="d-flex justify-content-center">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">RAVIOLO RIPIENO 17€</h5>
                 </div>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
+                <p class="card-text">Ravioli relleno con ternera a la brasa, salsa de tomate y vino tinto.</p>
               </div>
             </div>
           </div>
@@ -160,56 +156,52 @@
       <div class="col">
         <div class="row  categoria">
           <div class="d-flex justify-content-center">
-            <h1>Entrantes</h1>
+            <h1>Postres</h1>
           </div>
           <hr>
         </div>
         <div class="row">
           <div class="col-12 col-sm-6 col-lg-3">
             <div class="card carta">
-              <img src="../img/Pizza-oven.jpg" class="card-img-top">
+              <img src="../img/Tiramisu.jpg" class="card-img-top">
               <div class="card-body">
                 <div class="d-flex justify-content-center">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">TIRAMISU MARSALA 7€</h5>
                 </div>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
+                <p class="card-text">Nuestro deliciso tiramisu casero acampañado por helado de vainilla.</p>
               </div>
             </div>
           </div>
           <div class="col-12 col-sm-6 col-lg-3">
             <div class="card carta">
-              <img src="../img/Pizza-oven.jpg" class="card-img-top">
+              <img src="../img/Profiterol.jpg" class="card-img-top">
               <div class="card-body">
                 <div class="d-flex justify-content-center">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">PROFITEROL 8€</h5>
                 </div>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
+                <p class="card-text">Profiteroles artesanales rellenos de chocolate.</p>
               </div>
             </div>
           </div>
           <div class="col-12 col-sm-6 col-lg-3">
             <div class="card carta">
-              <img src="../img/Pizza-oven.jpg" class="card-img-top">
+              <img src="../img/Cannoli_with_chocolate.jpg" class="card-img-top">
               <div class="card-body">
                 <div class="d-flex justify-content-center">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">CANNOLO SILINIANO 8€</h5>
                 </div>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
+                <p class="card-text">Canoli relleno de crema de pistacho y con pepitas de chocolate.</p>
               </div>
             </div>
           </div>
           <div class="col-12 col-sm-6 col-lg-3">
             <div class="card carta">
-              <img src="../img/Pizza-oven.jpg" class="card-img-top">
+              <img src="../img/Calzone.jpeg" class="card-img-top">
               <div class="card-body">
                 <div class="d-flex justify-content-center">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">CALZONE NUTELLA 9€</h5>
                 </div>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
+                <p class="card-text">Calzone rellena de nutella y ricotta, espolvoreada con azucar.</p>
               </div>
             </div>
           </div>
