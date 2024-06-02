@@ -2,7 +2,6 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    width: 100vw;
     background-color: #DEE2E6;
 }
 
@@ -34,5 +33,8 @@ body {
     margin-left: 6em;
 }
 .carta{
-    margin-top: 1em;
+    margin-top: 1.5em;
+}
+.categoria{
+    margin-top: 2em;
 }
