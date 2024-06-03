@@ -1,4 +1,4 @@
-# Kyoto Ramen :pizza:
+# Vitta Bella :pizza:
 Welcome to the Vitta Bella documentation. This project recreates a website of a ficticional restaurant using HTML, CSS and Bootstrap.
 
 
